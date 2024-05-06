@@ -46,7 +46,7 @@ class Calculator {
                 computation = prev / curr
                 break
                 case '^':
-                computation = prev * curr * curr
+                computation = prev ** curr
                 break
             default:
                 return
