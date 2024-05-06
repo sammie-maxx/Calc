@@ -49,9 +49,8 @@ class Calculator {
                 computation = prev ** curr
                 break
                 case '√':
-                let prev= null
-                let curr = curr ** 0.5
-                computation = prev curr
+                
+                computation = ((prev) null (curr** 0.5))
                 break
             default:
                 return
