@@ -45,6 +45,9 @@ class Calculator {
             case '/':
                 computation = prev / curr
                 break
+                case '^':
+                computation = prev * (curr * ${curr})
+                break
             default:
                 return
         }
