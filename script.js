@@ -48,6 +48,9 @@ class Calculator {
                 case '^':
                 computation = prev ** curr
                 break
+                case '√':
+                computation = prev // curr
+                break
                
             default:
                 return
