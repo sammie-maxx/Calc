@@ -49,7 +49,7 @@ class Calculator {
                 computation = prev ** curr
                 break
                 case '√':
-                computation = prev/2
+                computation = Math.sqrt
                 break
             default:
                 return
