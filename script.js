@@ -49,7 +49,8 @@ class Calculator {
                 computation = prev ** curr
                 break
                 case '√':
-                computation = Math.sqrt(prev)
+                let curr= 0.5
+                computation= prev ** curr
                 break
                
             default:
